@@ -86,7 +86,7 @@ int main()
 		{
 			cout << "You are finally heading home. It has been so long. You are driving through the desert " << endl;
 			cout << "down Highway 49. You notice you have a flat tire and you're low on gas, so you pull " << endl;
-			cout << "over at a nearby gas station. It looks abandonded. " << endl << endl;
+			cout << "over at a nearby gas station. It looks abandoned. " << endl << endl;
 			cout << "Type 1 to look around the car, 2 to get out of the car, or 3 to stay in car." << endl;
 			cout << "Type 4 to exit the game." << endl;
 			cout << "What do you do? ";
@@ -147,7 +147,7 @@ int main()
 					else if (lookCarChoice == 3)
 					{
 						cout << "\nYou get out of the car. You see the abandoned gas station. It is errie looking." << endl;
-						cout << "It clearly has not been in use for some time. You notice something behind the gas station." << endl;
+						cout << "It clearly has not been in use for some time. You notice something behind the gas station." << endl << endl;
 						cout << "Type 1 to go to the gas station entrance or 2 to go behind the gas station." << endl;
 						cout << "Type 4 to exit the game." << endl;
 						cout << "What do you do? ";
@@ -166,7 +166,7 @@ int main()
 								cout << "\nYou walk to the entrance. The doorway is decayed and shows heavy signs of disuse." << endl;
 								cout << "You step forward and open the door. The abandoned cash register lays on the ground." << endl;
 								cout << "The walls are peeling and flooring creaks and groans heavily." << endl;
-								cout << "There is a door to your left and a door straight ahead." << endl;
+								cout << "There is a door to your left and a door straight ahead." << endl << endl;
 								cout << "Type 1 to use the door on your left or type 2 to use the door in front of you." << endl;
 								cout << "Type 4 to exit the game." << endl;
 								cout << "What do you do? ";
@@ -184,7 +184,7 @@ int main()
 									{
 										cout << "\nYou walk to the door to your left. You turn the doorknob and walk in." << endl;
 										cout << "You see an unexpected sight. There is a relatively new computer sitting." << endl;
-										cout << "on a desk. You walk over to the computer. It is already on." << endl;
+										cout << "on a desk. You walk over to the computer. It is already on." << endl << endl;
 										cout << "Type 1 to use the computer or  type 2 to run out of the gas station." << endl;
 										cout << "Type 4 to exit the game." << endl;
 										cout << "What do you do? ";
@@ -316,7 +316,7 @@ int main()
 							}
 							else if (outsideCarChoice == 2)
 							{
-								cout << "\nYou walk around to the back of the gas station. You see a slightly open door." << endl;
+								cout << "\nYou walk around to the back of the gas station. You see a slightly open door." << endl << endl;
 								cout << "Type 1 to go through the door." << endl;
 								cout << "Type 4 to exit the game." << endl;
 								cout << "What do you do? ";
@@ -381,7 +381,7 @@ int main()
 			else if (carChoice == 2)
 			{
 				cout << "\nYou get out of the car. You see the abandoned gas station. It is errie looking." << endl;
-				cout << "It clearly has not been in use for some time. You notice something behind the gas station." << endl;
+				cout << "It clearly has not been in use for some time. You notice something behind the gas station." << endl << endl;
 				cout << "Type 1 to go to the gas station entrance or 2 to go behind the gas station." << endl;
 				cout << "Type 4 to exit the game." << endl;
 				cout << "What do you do? ";
@@ -400,7 +400,7 @@ int main()
 						cout << "\nYou walk to the entrance. The doorway is decayed and shows heavy signs of disuse." << endl;
 						cout << "You step forward and open the door. The abandoned cash register lays on the ground." << endl;
 						cout << "The walls are peeling and flooring creaks and groans heavily." << endl;
-						cout << "There is door to your left and a door straight ahead." << endl;
+						cout << "There is door to your left and a door straight ahead." << endl << endl;
 						cout << "Type 1 to use the door on your left or type 2 to use the door in front of you." << endl;
 						cout << "Type 4 to exit the game." << endl;
 						cout << "What do you do? ";
@@ -412,7 +412,7 @@ int main()
 							{
 								cout << "\nYou walk to the door to your left. You turn the doorknob and walk in." << endl;
 								cout << "You see an unexpected sight. There is a relatively new computer sitting." << endl;
-								cout << "on a desk. You walk over to the computer. It is already on." << endl;
+								cout << "on a desk. You walk over to the computer. It is already on." << endl << endl;
 								cout << "Type 1 to use the computer or type 2 to run out of the gas station." << endl;
 								cout << "Type 4 to exit the game." << endl;
 								cout << "What do you do? ";
@@ -549,7 +549,7 @@ int main()
 					}
 					else if (outsideCarChoice == 2)
 					{
-						cout << "\nYou walk around to the back of the gas station. You see a slightly open door." << endl;
+						cout << "\nYou walk around to the back of the gas station. You see a slightly open door." << endl << endl;
 						cout << "Type 1 to go through the door." << endl;
 						cout << "Type 4 to exit the game." << endl;
 						cout << "What do you do? ";
